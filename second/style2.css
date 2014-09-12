@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    background: gray;
+    padding: 25px 25px 50px 25px;
+    text-align: center;
+    margin: 25px 20px;
+    height: 700px;
+    width: 92%;
+    float: left;
+    font-size: 300px;
+
+}
+
+.button {
+    height: 100px;
+    width: 200px;
+    background: red;
+    font-size: 65px;
+    position: absolute;
+    bottom: -500px;
+
+}
+
+.one {
+    left: 0px;
+    position: relative;
+    float: left;
+}
+
+.two {
+    right: 0px;
+    position: relative;
+    float: right;
+}
