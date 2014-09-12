@@ -5,7 +5,6 @@ html, body {
 
 .box {
     background: gray;
-    padding: 25px 25px 50px 25px;
     text-align: center;
     margin: 25px 20px;
     height: 700px;
@@ -21,18 +20,16 @@ html, body {
     background: red;
     font-size: 65px;
     position: absolute;
-    bottom: -500px;
-
+    bottom: 0px;
+    color: white;
+   
 }
 
 .one {
-    left: 0px;
-    position: relative;
-    float: left;
+    left: 200px;  
 }
 
 .two {
-    right: 0px;
-    position: relative;
-    float: right;
+    right: 200px;
+    background: blue;
 }
